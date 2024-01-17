@@ -290,6 +290,7 @@ section {
     background: rgba(233, 68, 68, 0.05);
     padding: 50px;
 }
+
 /* section-4 */
 .discount {
     text-align: center;
@@ -303,7 +304,7 @@ section {
 
 .discount-box-1 {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: flex-end;
     height: 500px;
     background: url(../Images/Group\ 39.png);
@@ -315,9 +316,9 @@ section {
     padding-right: 60px;
 }
 
-.discount-box-2{
+.discount-box-2 {
     display: flex;
-    align-items:center;
+    align-items: center;
     height: 500px;
     background: url(../Images/Group\ 40.png);
     background-position: center;
@@ -339,11 +340,11 @@ section {
     padding: 50px;
 }
 
-.discount-content > .primary-button {
+.discount-content>.primary-button {
     margin-top: 10px;
 }
 
-.discount > .primary-button {
+.discount>.primary-button {
     margin-top: 10px;
 }
 
@@ -351,8 +352,8 @@ section {
 
 .place-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
     height: auto;
 }
 
@@ -365,7 +366,7 @@ section {
     list-style-position: inside;
 }
 
-.place-content > .primary-button {
+.place-content>.primary-button {
     margin-top: 10px;
 }
 
@@ -380,12 +381,12 @@ section {
 
 .place-video {
     position: relative;
-  width: 100%;
-  height: 450px;
-  overflow: hidden; 
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
 }
 
-.place-video > video {
+.place-video>video {
     position: absolute;
     top: 0;
     left: 0;
@@ -395,3 +396,97 @@ section {
     border-radius: 8px;
 }
 
+/* section-6 */
+.sub-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+.sub-img {
+    background: url(../Images/Rectangle\ 8\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.sub-form {
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.sub-button {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19deg);
+
+}
+
+.sub-img {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.sub-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.sub-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.sub-form>form>button {
+    width: 100%;
+    padding: 10px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 80px 150px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-logo {
+    display: block;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.footer-content>ul {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.footer-content>ul>li {
+    font-size: 2.5rem;
+    list-style: none;
+}
+
+footer .copy {
+    margin: 50px 0;
+}
+
+.footer-content>.primary-text {
+    margin-top: 20px;
+}
